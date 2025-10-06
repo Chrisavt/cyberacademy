@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyberAcademy - Dashboard de Progreso">
+    <title>Dashboard | CyberAcademy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Checkbox para menú móvil -->
+    <input type="checkbox" id="mobile-menu-toggle" class="sr-only">
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-mascot">
+                        <div class="logo-body">
+                            <div class="logo-face">
+                                <div class="logo-mask"></div>
+                                <div class="logo-eyes">
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                </div>
+                                <div class="logo-nose"></div>
+                            </div>
+                            <div class="logo-ears">
+                                <div class="logo-ear"></div>
+                                <div class="logo-ear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <div class="logo-title">CyberAcademy</div>
+                        <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                    </div>
+                </div>
+                
+                <!-- Menú principal -->
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#clases" class="nav-link">Especializaciones</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Elige tu camino</div>
+                                <a href="index.html#red-team" class="dropdown-item">Red Team</a>
+                                <a href="index.html#blue-team" class="dropdown-item">Blue Team</a>
+                                <a href="index.html#purple-team" class="dropdown-item">Purple Team</a>
+                                <a href="index.html#osint" class="dropdown-item">OSINT Specialist</a>
+                                <a href="index.html#malware" class="dropdown-item">Malware Analyst</a>
+                                <a href="index.html#forense" class="dropdown-item">Forense Digital</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="retos.html" class="nav-link">Retos Interactivos</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Niveles de dificultad</div>
+                                <a href="retos.html#principiante" class="dropdown-item">Principiante</a>
+                                <a href="retos.html#intermedio" class="dropdown-item">Intermedio</a>
+                                <a href="retos.html#avanzado" class="dropdown-item">Avanzado</a>
+                                <a href="retos.html#experto" class="dropdown-item">Experto</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dashboard.html" class="nav-link">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#precios" class="nav-link">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#osint-framework" class="nav-link">OSINT Framework</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Botones de acción -->
+                <div class="header-actions">
+                    <a href="registro.html" class="btn btn-outline">Registrarse</a>
+                    <a href="login.html" class="btn">Iniciar Sesión</a>
+                </div>
+
+                <!-- Botón de menú móvil -->
+                <label for="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Hero Section para Dashboard -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Tu Dashboard de Progreso</h1>
+                        <p>Sigue tu evolución, visualiza tus logros y descubre qué retos te esperan en tu camino hacia la maestría en ciberseguridad.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="retos.html" class="btn">Continuar con Retos</a>
+                            <a href="index.html#clases" class="btn btn-outline">Explorar Especializaciones</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="raccoon-container">
+                            <div class="cyber-element">
+                                <div class="data-point"></div>
+                                <div class="data-point"></div>
+                                <div class="data-point"></div>
+                                <div class="data-point"></div>
+                            </div>
+                            <div class="raccoon-mascot">
+                                <div class="raccoon-body">
+                                    <div class="raccoon-face">
+                                        <div class="raccoon-mask"></div>
+                                        <div class="raccoon-eyes">
+                                            <div class="raccoon-eye">
+                                                <div class="eye-shine"></div>
+                                            </div>
+                                            <div class="raccoon-eye">
+                                                <div class="eye-shine"></div>
+                                            </div>
+                                        </div>
+                                        <div class="raccoon-nose"></div>
+                                    </div>
+                                    <div class="raccoon-ears">
+                                        <div class="raccoon-ear">
+                                            <div class="ear-inner"></div>
+                                        </div>
+                                        <div class="raccoon-ear">
+                                            <div class="ear-inner"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ESPADA AÑADIDA AL MAPACHE -->
+                                <div class="sword">
+                                    <div class="sword-glow"></div>
+                                    <div class="sword-blade"></div>
+                                    <div class="sword-guard"></div>
+                                    <div class="sword-hilt"></div>
+                                    <div class="sword-pommel"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Interactivo -->
+        <section class="fade-in">
+            <div class="container">
+                <div class="dashboard-container">
+                    <!-- Sidebar -->
+                    <div class="dashboard-sidebar">
+                        <h3 class="mb-4">Tu Perfil</h3>
+                        <div class="text-center mb-4">
+                            <div class="logo-mascot mx-auto mb-3">
+                                <div class="logo-body">
+                                    <div class="logo-face">
+                                        <div class="logo-mask"></div>
+                                        <div class="logo-eyes">
+                                            <div class="logo-eye">
+                                                <div class="logo-eye-shine"></div>
+                                            </div>
+                                            <div class="logo-eye">
+                                                <div class="logo-eye-shine"></div>
+                                            </div>
+                                        </div>
+                                        <div class="logo-nose"></div>
+                                    </div>
+                                    <div class="logo-ears">
+                                        <div class="logo-ear"></div>
+                                        <div class="logo-ear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 id="user-level">Ciberseguridad Nivel 1</h4>
+                            <p class="text-muted" id="user-xp">250 XP / 1000 XP</p>
+                        </div>
+                        
+                        <div class="progress-bar mb-4">
+                            <div class="progress-fill" id="level-progress" style="width: 25%"></div>
+                        </div>
+                        
+                        <h5 class="mb-3">Logros Desbloqueados</h5>
+                        <div class="achievements-list">
+                            <div class="achievement-item d-flex align-items-center mb-3" id="phishing-achievement">
+                                <div class="achievement-icon bg-success rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                    <i class="fas fa-flag text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Cazador de Phishing</h6>
+                                    <small class="text-muted">Completado: <span id="phishing-date">-</span></small>
+                                </div>
+                            </div>
+                            <div class="achievement-item d-flex align-items-center mb-3 opacity-50">
+                                <div class="achievement-icon bg-secondary rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                    <i class="fas fa-lock text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Experto en Criptografía</h6>
+                                    <small class="text-muted">Bloqueado</small>
+                                </div>
+                            </div>
+                            <div class="achievement-item d-flex align-items-center opacity-50">
+                                <div class="achievement-icon bg-secondary rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                    <i class="fas fa-shield-alt text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Defensor de Redes</h6>
+                                    <small class="text-muted">Bloqueado</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contenido principal del dashboard -->
+                    <div class="dashboard-main">
+                        <!-- Estadísticas rápidas -->
+                        <div class="dashboard-stats">
+                            <div class="stat-card">
+                                <h3 id="total-points">250</h3>
+                                <p>Puntos Totales</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3 id="completed-challenges">1</h3>
+                                <p>Retos Completados</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3 id="current-streak">3</h3>
+                                <p>Días Consecutivos</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3 id="ranking">#42</h3>
+                                <p>Ranking Global</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Progreso en retos -->
+                        <div class="progress-challenges">
+                            <h3 class="mb-4">Tu Progreso en Retos</h3>
+                            
+                            <div class="challenge-progress">
+                                <div class="progress-info">
+                                    <span>Análisis de Phishing</span>
+                                    <span id="phishing-progress-text">100%</span>
+                                </div>
+                                <div class="progress-bar-small">
+                                    <div class="progress-fill-small" id="phishing-progress" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="challenge-progress">
+                                <div class="progress-info">
+                                    <span>Explotación Web</span>
+                                    <span>0%</span>
+                                </div>
+                                <div class="progress-bar-small">
+                                    <div class="progress-fill-small" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="challenge-progress">
+                                <div class="progress-info">
+                                    <span>Análisis de Malware</span>
+                                    <span>0%</span>
+                                </div>
+                                <div class="progress-bar-small">
+                                    <div class="progress-fill-small" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="challenge-progress">
+                                <div class="progress-info">
+                                    <span>Reconocimiento de Red</span>
+                                    <span>0%</span>
+                                </div>
+                                <div class="progress-bar-small">
+                                    <div class="progress-fill-small" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Próximos retos recomendados -->
+                        <div class="progress-challenges">
+                            <h3 class="mb-4">Próximos Retos Recomendados</h3>
+                            
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="challenge-level level-intermediate">Intermedio</span>
+                                        <h4>Explotación de Vulnerabilidades Web</h4>
+                                        <p>Aprende a identificar y explotar vulnerabilidades comunes en aplicaciones web.</p>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <small>500 puntos</small>
+                                            <a href="retos.html" class="btn btn-sm">Comenzar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="challenge-level level-beginner">Principiante</span>
+                                        <h4>Fundamentos de Criptografía</h4>
+                                        <p>Domina los conceptos básicos de cifrado y descifrado de información.</p>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <small>300 puntos</small>
+                                            <a href="retos.html" class="btn btn-sm">Comenzar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mascota animada del dashboard -->
+    <div class="dashboard-mascot">
+        <div class="raccoon-mascot">
+            <div class="raccoon-body">
+                <div class="raccoon-face">
+                    <div class="raccoon-mask"></div>
+                    <div class="raccoon-eyes">
+                        <div class="raccoon-eye">
+                            <div class="eye-shine"></div>
+                        </div>
+                        <div class="raccoon-eye">
+                            <div class="eye-shine"></div>
+                        </div>
+                    </div>
+                    <div class="raccoon-nose"></div>
+                </div>
+                <div class="raccoon-ears">
+                    <div class="raccoon-ear">
+                        <div class="ear-inner"></div>
+                    </div>
+                    <div class="raccoon-ear">
+                        <div class="ear-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mascot-message">
+            <p>¡Sigue así! Cada reto completado te acerca a convertirte en un experto en ciberseguridad.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-mascot">
+                            <div class="logo-body">
+                                <div class="logo-face">
+                                    <div class="logo-mask"></div>
+                                    <div class="logo-eyes">
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                    </div>
+                                    <div class="logo-nose"></div>
+                                </div>
+                                <div class="logo-ears">
+                                    <div class="logo-ear"></div>
+                                    <div class="logo-ear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-text">
+                            <div class="logo-title">CyberAcademy</div>
+                            <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                        </div>
+                    </div>
+                    <p>Tu plataforma de aprendizaje práctico en ciberseguridad. Desarrolla habilidades reales a través de retos, niveles y especializaciones profesionales.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#clases">Especializaciones</a></li>
+                        <li><a href="retos.html">Retos Interactivos</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="index.html#precios">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="guias.html">Guías</a></li>
+                        <li><a href="herramientas.html">Herramientas</a></li>
+                        <li><a href="comunidad.html">Comunidad</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="contacto.html">Formulario de Contacto</a></li>
+                        <li><a href="mailto:info@cyberacademy.com">info@cyberacademy.com</a></li>
+                        <li><a href="soporte.html">Soporte Técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CyberAcademy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sistema del dashboard interactivo
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cargar datos del usuario desde localStorage
+            loadUserData();
+            
+            // Actualizar datos cada 2 segundos (simulación de datos en tiempo real)
+            setInterval(loadUserData, 2000);
+            
+            function loadUserData() {
+                // Obtener datos de localStorage o usar valores por defecto
+                const points = parseInt(localStorage.getItem('points') || '250');
+                const phishingCompleted = localStorage.getItem('phishingChallengeCompleted') === 'true';
+                const completedDate = localStorage.getItem('phishingCompletedDate');
+                
+                // Actualizar estadísticas
+                document.getElementById('total-points').textContent = points;
+                document.getElementById('completed-challenges').textContent = phishingCompleted ? '1' : '0';
+                
+                // Actualizar progreso de nivel
+                const levelProgress = (points / 1000) * 100;
+                document.getElementById('level-progress').style.width = `${levelProgress}%`;
+                document.getElementById('user-xp').textContent = `${points} XP / 1000 XP`;
+                
+                // Actualizar logro de phishing
+                if (phishingCompleted) {
+                    document.getElementById('phishing-achievement').classList.remove('opacity-50');
+                    if (completedDate) {
+                        document.getElementById('phishing-date').textContent = completedDate;
+                    } else {
+                        const today = new Date().toLocaleDateString();
+                        document.getElementById('phishing-date').textContent = today;
+                        localStorage.setItem('phishingCompletedDate', today);
+                    }
+                }
+                
+                // Actualizar racha (simulada)
+                const streak = Math.min(7, Math.floor(points / 100) + 1);
+                document.getElementById('current-streak').textContent = streak;
+                
+                // Actualizar ranking (simulado)
+                const ranking = Math.max(1, 100 - Math.floor(points / 10));
+                document.getElementById('ranking').textContent = `#${ranking}`;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyberAcademy - Tu plataforma de aprendizaje práctico en ciberseguridad">
+    <title>CyberAcademy | Aprendizaje Práctico en Ciberseguridad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Fijo y Corregido -->
+    <header class="fixed-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-mascot">
+                        <div class="logo-body">
+                            <div class="logo-face">
+                                <div class="logo-mask"></div>
+                                <div class="logo-eyes">
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                </div>
+                                <div class="logo-nose"></div>
+                            </div>
+                            <div class="logo-ears">
+                                <div class="logo-ear"></div>
+                                <div class="logo-ear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <div class="logo-title">CyberAcademy</div>
+                        <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                    </div>
+                </div>
+                
+                <!-- Menú Principal Corregido -->
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item dropdown">
+                            <a href="#inicio" class="nav-link">Inicio</a>
+                            <div class="dropdown-menu">
+                                <a href="#inicio" class="dropdown-item">Hero Section</a>
+                                <a href="#quienes-somos" class="dropdown-item">Quiénes Somos</a>
+                                <a href="#nuevas-experiencias" class="dropdown-item">Nuevas Experiencias</a>
+                                <a href="#galeria" class="dropdown-item">Galería</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#quienes-somos" class="nav-link">Quiénes Somos</a>
+                            <div class="dropdown-menu">
+                                <a href="#quienes-somos" class="dropdown-item">Nuestra Misión</a>
+                                <a href="#equipo" class="dropdown-item">Nuestro Equipo</a>
+                                <a href="#metodologia" class="dropdown-item">Metodología</a>
+                                <a href="#valores" class="dropdown-item">Valores</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#clases" class="nav-link">Especializaciones</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Elige tu camino</div>
+                                <a href="#red-team" class="dropdown-item">Red Team</a>
+                                <a href="#blue-team" class="dropdown-item">Blue Team</a>
+                                <a href="#purple-team" class="dropdown-item">Purple Team</a>
+                                <a href="#osint" class="dropdown-item">OSINT Specialist</a>
+                                <a href="#malware" class="dropdown-item">Malware Analyst</a>
+                                <a href="#forense" class="dropdown-item">Forense Digital</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="retos.html" class="nav-link">Retos Interactivos</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Niveles de dificultad</div>
+                                <a href="retos.html#principiante" class="dropdown-item">Principiante</a>
+                                <a href="retos.html#intermedio" class="dropdown-item">Intermedio</a>
+                                <a href="retos.html#avanzado" class="dropdown-item">Avanzado</a>
+                                <a href="retos.html#experto" class="dropdown-item">Experto</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="dashboard.html" class="dropdown-item">Mi Progreso</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#precios" class="nav-link">Precios</a>
+                            <div class="dropdown-menu">
+                                <a href="#precios" class="dropdown-item">Planes y Precios</a>
+                                <a href="#comparar-planes" class="dropdown-item">Comparar Planes</a>
+                                <a href="#empresas" class="dropdown-item">Para Empresas</a>
+                                <a href="#preguntas-frecuentes" class="dropdown-item">Preguntas Frecuentes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#noticias" class="nav-link">Noticias</a>
+                            <div class="dropdown-menu">
+                                <a href="#noticias" class="dropdown-item">Últimas Noticias</a>
+                                <a href="#articulos" class="dropdown-item">Artículos Técnicos</a>
+                                <a href="#tutoriales" class="dropdown-item">Tutoriales</a>
+                                <a href="#eventos" class="dropdown-item">Eventos</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Botones de acción -->
+                <div class="header-actions">
+                    <a href="registro.html" class="btn btn-outline">Registrarse</a>
+                    <a href="login.html" class="btn">Iniciar Sesión</a>
+                </div>
+
+                <!-- Botón de menú móvil -->
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Aprende Ciberseguridad de Manera Práctica</h1>
+                    <p>Domina las habilidades de ciberseguridad a través de retos reales, niveles progresivos y especializaciones profesionales. Conviértete en el experto que las empresas necesitan.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="registro.html" class="btn">Comenzar Ahora</a>
+                        <a href="retos.html" class="btn btn-outline">Probar Retos</a>
+                        <a href="dashboard.html" class="btn btn-blue">Ver Dashboard</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="raccoon-container">
+                        <div class="cyber-element">
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                        </div>
+                        <div class="raccoon-mascot">
+                            <div class="raccoon-body">
+                                <div class="raccoon-face">
+                                    <div class="raccoon-mask"></div>
+                                    <div class="raccoon-eyes">
+                                        <div class="raccoon-eye">
+                                            <div class="eye-shine"></div>
+                                        </div>
+                                        <div class="raccoon-eye">
+                                            <div class="eye-shine"></div>
+                                        </div>
+                                    </div>
+                                    <div class="raccoon-nose"></div>
+                                </div>
+                                <div class="raccoon-ears">
+                                    <div class="raccoon-ear">
+                                        <div class="ear-inner"></div>
+                                    </div>
+                                    <div class="raccoon-ear">
+                                        <div class="ear-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ESPADA AÑADIDA AL MAPACHE -->
+                            <div class="sword">
+                                <div class="sword-glow"></div>
+                                <div class="sword-blade"></div>
+                                <div class="sword-guard"></div>
+                                <div class="sword-hilt"></div>
+                                <div class="sword-pommel"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Quiénes Somos -->
+        <section id="quienes-somos" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Quiénes Somos</h2>
+                    <p>Conoce más sobre CyberAcademy y nuestra misión</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Nuestra Misión</h3>
+                            <p>En CyberAcademy nos dedicamos a formar a la próxima generación de expertos en ciberseguridad a través de un enfoque práctico y orientado a resultados.</p>
+                            <p>Creemos que la mejor manera de aprender es enfrentándose a desafíos reales en entornos controlados, desarrollando habilidades que son directamente aplicables en el mundo laboral.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Nuestro Equipo</h3>
+                            <p>Contamos con un equipo multidisciplinario de profesionales en ciberseguridad con años de experiencia en:</p>
+                            <ul>
+                                <li>Pentesting y auditorías de seguridad</li>
+                                <li>Análisis forense digital</li>
+                                <li>Desarrollo seguro</li>
+                                <li>Gestión de incidentes</li>
+                                <li>Investigación de amenazas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Nuestra Metodología</h3>
+                            <p>Implementamos un enfoque de aprendizaje basado en:</p>
+                            <ul>
+                                <li>Retos prácticos simulando escenarios reales</li>
+                                <li>Progresión por niveles de dificultad</li>
+                                <li>Especializaciones profesionales</li>
+                                <li>Seguimiento personalizado del progreso</li>
+                                <li>Comunidad colaborativa de aprendizaje</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Nuevas Páginas Interactivas -->
+        <section id="nuevas-experiencias" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuevas Experiencias Interactivas</h2>
+                    <p>Descubre nuestras nuevas páginas diseñadas para hacer tu aprendizaje más divertido y efectivo</p>
+                </div>
+                <div class="cards">
+                    <div class="card team-card red-team">
+                        <div class="card-content text-center">
+                            <div class="team-icon mx-auto">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                            <h3>Retos Interactivos</h3>
+                            <p>Resuelve desafíos de ciberseguridad con pistas, videos explicativos y un sistema de flags para validar tu progreso.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-danger me-2">Interactivo</span>
+                                <span class="badge bg-secondary">Flags</span>
+                            </div>
+                            <a href="retos.html" class="btn btn-red mt-3">Explorar Retos</a>
+                        </div>
+                    </div>
+                    <div class="card team-card blue-team">
+                        <div class="card-content text-center">
+                            <div class="team-icon mx-auto">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Dashboard de Progreso</h3>
+                            <p>Sigue tu avance, desbloquea logros y visualiza tu crecimiento en tiempo real con estadísticas detalladas.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-2">Progreso</span>
+                                <span class="badge bg-secondary">Estadísticas</span>
+                            </div>
+                            <a href="dashboard.html" class="btn btn-blue mt-3">Ver Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Galería de Imágenes -->
+        <section id="galeria" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestro Entorno de Aprendizaje</h2>
+                    <p>Descubre las herramientas y ambientes que utilizamos para tu formación</p>
+                </div>
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/1a1f2e/3b82f6?text=Laboratorio+Virtual" alt="Laboratorio Virtual" loading="lazy">
+                        <div class="gallery-caption">
+                            <h4>Laboratorios Virtuales</h4>
+                            <p>Entornos seguros para practicar sin riesgos</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/1a1f2e/3b82f6?text=Herramientas+Profesionales" alt="Herramientas Profesionales" loading="lazy">
+                        <div class="gallery-caption">
+                            <h4>Herramientas Profesionales</h4>
+                            <p>Software y herramientas utilizadas en la industria</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/1a1f2e/3b82f6?text=Comunidad+Activa" alt="Comunidad Activa" loading="lazy">
+                        <div class="gallery-caption">
+                            <h4>Comunidad Activa</h4>
+                            <p>Espacios de colaboración y networking</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/1a1f2e/3b82f6?text=Certificaciones" alt="Certificaciones" loading="lazy">
+                        <div class="gallery-caption">
+                            <h4>Certificaciones</h4>
+                            <p>Reconocimiento de habilidades adquiridas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Progreso -->
+        <section class="fade-in">
+            <div class="container">
+                <div class="progress-container">
+                    <h2 class="text-center mb-4">Tu Progreso de Aprendizaje</h2>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Fundamentos de Ciberseguridad</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Pentesting Básico</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Análisis de Malware</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%"></div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <a href="dashboard.html" class="btn btn-outline">Ver Dashboard Completo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Precios -->
+        <section id="precios" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Planes de Suscripción</h2>
+                    <p>Elige el plan que mejor se adapte a tus necesidades de aprendizaje</p>
+                </div>
+                <div class="cards">
+                    <div class="card pricing-card">
+                        <div class="card-content text-center">
+                            <h3>Básico</h3>
+                            <div class="price">$19<span class="price-period">/mes</span></div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Acceso a retos básicos</li>
+                                <li><i class="fas fa-check"></i> Dashboard de progreso</li>
+                                <li><i class="fas fa-check"></i> Comunidad de estudiantes</li>
+                                <li><i class="fas fa-times"></i> Retos avanzados</li>
+                                <li><i class="fas fa-times"></i> Certificaciones</li>
+                                <li><i class="fas fa-times"></i> Soporte prioritario</li>
+                            </ul>
+                            <a href="registro.html" class="btn btn-outline">Comenzar</a>
+                        </div>
+                    </div>
+                    <div class="card pricing-card featured">
+                        <div class="card-content text-center">
+                            <span class="badge bg-primary">Más Popular</span>
+                            <h3>Profesional</h3>
+                            <div class="price">$49<span class="price-period">/mes</span></div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Todos los retos disponibles</li>
+                                <li><i class="fas fa-check"></i> Dashboard avanzado</li>
+                                <li><i class="fas fa-check"></i> Comunidad premium</li>
+                                <li><i class="fas fa-check"></i> Certificaciones incluidas</li>
+                                <li><i class="fas fa-check"></i> Laboratorios virtuales</li>
+                                <li><i class="fas fa-times"></i> Mentoría personalizada</li>
+                            </ul>
+                            <a href="registro.html" class="btn">Comenzar</a>
+                        </div>
+                    </div>
+                    <div class="card pricing-card">
+                        <div class="card-content text-center">
+                            <h3>Empresarial</h3>
+                            <div class="price">$99<span class="price-period">/mes</span></div>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Acceso ilimitado</li>
+                                <li><i class="fas fa-check"></i> Dashboard corporativo</li>
+                                <li><i class="fas fa-check"></i> Gestión de equipos</li>
+                                <li><i class="fas fa-check"></i> Certificaciones avanzadas</li>
+                                <li><i class="fas fa-check"></i> Mentoría personalizada</li>
+                                <li><i class="fas fa-check"></i> Reportes de progreso</li>
+                            </ul>
+                            <a href="registro.html" class="btn btn-outline">Contactar Ventas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Noticias y Artículos -->
+        <section id="noticias" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Noticias y Artículos</h2>
+                    <p>Mantente actualizado con las últimas tendencias en ciberseguridad</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="badge bg-danger">Novedad</span>
+                            <h3>Nuevas Técnicas de Phishing en 2023</h3>
+                            <p>Descubre cómo los atacantes están evolucionando sus métodos de phishing y cómo protegerte contra estas amenazas.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>Publicado: 15 Nov 2023</small>
+                                <a href="#" class="btn btn-sm btn-outline">Leer Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="badge bg-primary">Tutorial</span>
+                            <h3>Guía Completa de OSINT</h3>
+                            <p>Aprende las técnicas más efectivas de inteligencia de fuentes abiertas para tus investigaciones de ciberseguridad.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>Publicado: 8 Nov 2023</small>
+                                <a href="#" class="btn btn-sm btn-outline">Leer Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="badge bg-success">Consejos</span>
+                            <h3>5 Errores Comunes en Pentesting</h3>
+                            <p>Evita estos errores frecuentes que cometen los principiantes en pruebas de penetración para mejorar tus resultados.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>Publicado: 1 Nov 2023</small>
+                                <a href="#" class="btn btn-sm btn-outline">Leer Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn">Ver Todos los Artículos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de empresas colaboradoras - CARRUSEL -->
+        <section class="partners fade-in">
+            <div class="container">
+                <div class="partners-title">
+                    <h2>Colaboramos con las mejores</h2>
+                    <p>Empresas líderes que confían en nuestra plataforma educativa</p>
+                </div>
+                <div class="partners-container">
+                    <div class="partners-carousel">
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=SecurityTech" alt="SecurityTech" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=CyberDefense" alt="CyberDefense" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=SecureNet" alt="SecureNet" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=DataShield" alt="DataShield" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=ThreatWatch" alt="ThreatWatch" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=InfoSec" alt="InfoSec" loading="lazy">
+                        </div>
+                        <!-- Duplicados para efecto continuo -->
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=SecurityTech" alt="SecurityTech" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=CyberDefense" alt="CyberDefense" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=SecureNet" alt="SecureNet" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=DataShield" alt="DataShield" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=ThreatWatch" alt="ThreatWatch" loading="lazy">
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://via.placeholder.com/150x60/1a1f2e/3b82f6?text=InfoSec" alt="InfoSec" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-mascot">
+                            <div class="logo-body">
+                                <div class="logo-face">
+                                    <div class="logo-mask"></div>
+                                    <div class="logo-eyes">
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                    </div>
+                                    <div class="logo-nose"></div>
+                                </div>
+                                <div class="logo-ears">
+                                    <div class="logo-ear"></div>
+                                    <div class="logo-ear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-text">
+                            <div class="logo-title">CyberAcademy</div>
+                            <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                        </div>
+                    </div>
+                    <p>Tu plataforma de aprendizaje práctico en ciberseguridad. Desarrolla habilidades reales a través de retos, niveles y especializaciones profesionales.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                        <li><a href="retos.html">Retos Interactivos</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="guias.html">Guías</a></li>
+                        <li><a href="herramientas.html">Herramientas</a></li>
+                        <li><a href="comunidad.html">Comunidad</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="contacto.html">Formulario de Contacto</a></li>
+                        <li><a href="mailto:info@cyberacademy.com">info@cyberacademy.com</a></li>
+                        <li><a href="soporte.html">Soporte Técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CyberAcademy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Control de progreso animado
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressBars = document.querySelectorAll('.progress-fill');
+            
+            // Función para animar las barras de progreso
+            function animateProgressBars() {
+                progressBars.forEach(bar => {
+                    const targetWidth = bar.style.width;
+                    bar.style.width = '0%';
+                    
+                    setTimeout(() => {
+                        bar.style.width = targetWidth;
+                    }, 300);
+                });
+            }
+            
+            // Ejecutar animación cuando la sección sea visible
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateProgressBars();
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+            
+            const progressSection = document.querySelector('.progress-container');
+            if (progressSection) {
+                observer.observe(progressSection);
+            }
+
+            // Control del menú móvil
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            
+            mobileMenuToggle.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

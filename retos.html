@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyberAcademy - Retos Interactivos de Ciberseguridad">
+    <title>Retos Interactivos | CyberAcademy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Checkbox para menú móvil -->
+    <input type="checkbox" id="mobile-menu-toggle" class="sr-only">
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-mascot">
+                        <div class="logo-body">
+                            <div class="logo-face">
+                                <div class="logo-mask"></div>
+                                <div class="logo-eyes">
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                    <div class="logo-eye">
+                                        <div class="logo-eye-shine"></div>
+                                    </div>
+                                </div>
+                                <div class="logo-nose"></div>
+                            </div>
+                            <div class="logo-ears">
+                                <div class="logo-ear"></div>
+                                <div class="logo-ear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <div class="logo-title">CyberAcademy</div>
+                        <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                    </div>
+                </div>
+                
+                <!-- Menú principal -->
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#clases" class="nav-link">Especializaciones</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Elige tu camino</div>
+                                <a href="index.html#red-team" class="dropdown-item">Red Team</a>
+                                <a href="index.html#blue-team" class="dropdown-item">Blue Team</a>
+                                <a href="index.html#purple-team" class="dropdown-item">Purple Team</a>
+                                <a href="index.html#osint" class="dropdown-item">OSINT Specialist</a>
+                                <a href="index.html#malware" class="dropdown-item">Malware Analyst</a>
+                                <a href="index.html#forense" class="dropdown-item">Forense Digital</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="retos.html" class="nav-link">Retos Interactivos</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">Niveles de dificultad</div>
+                                <a href="#principiante" class="dropdown-item">Principiante</a>
+                                <a href="#intermedio" class="dropdown-item">Intermedio</a>
+                                <a href="#avanzado" class="dropdown-item">Avanzado</a>
+                                <a href="#experto" class="dropdown-item">Experto</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dashboard.html" class="nav-link">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#precios" class="nav-link">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#osint-framework" class="nav-link">OSINT Framework</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Botones de acción -->
+                <div class="header-actions">
+                    <a href="registro.html" class="btn btn-outline">Registrarse</a>
+                    <a href="login.html" class="btn">Iniciar Sesión</a>
+                </div>
+
+                <!-- Botón de menú móvil -->
+                <label for="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Hero Section para Retos -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Retos Interactivos de Ciberseguridad</h1>
+                    <p>Pon a prueba tus habilidades con desafíos prácticos que simulan escenarios reales. Resuelve problemas, encuentra flags y avanza en tu aprendizaje.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#principiante" class="btn">Comenzar con Retos Básicos</a>
+                        <a href="dashboard.html" class="btn btn-outline">Ver Mi Progreso</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="raccoon-container">
+                        <div class="cyber-element">
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                            <div class="data-point"></div>
+                        </div>
+                        <div class="raccoon-mascot">
+                            <div class="raccoon-body">
+                                <div class="raccoon-face">
+                                    <div class="raccoon-mask"></div>
+                                    <div class="raccoon-eyes">
+                                        <div class="raccoon-eye">
+                                            <div class="eye-shine"></div>
+                                        </div>
+                                        <div class="raccoon-eye">
+                                            <div class="eye-shine"></div>
+                                        </div>
+                                    </div>
+                                    <div class="raccoon-nose"></div>
+                                </div>
+                                <div class="raccoon-ears">
+                                    <div class="raccoon-ear">
+                                        <div class="ear-inner"></div>
+                                    </div>
+                                    <div class="raccoon-ear">
+                                        <div class="ear-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ESPADA AÑADIDA AL MAPACHE -->
+                            <div class="sword">
+                                <div class="sword-glow"></div>
+                                <div class="sword-blade"></div>
+                                <div class="sword-guard"></div>
+                                <div class="sword-hilt"></div>
+                                <div class="sword-pommel"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Retos Interactivos -->
+        <section id="principiante" class="fade-in">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Reto: Análisis de Phishing</h2>
+                    <p>Nivel Principiante - Identifica y analiza correos de phishing para entender las técnicas utilizadas por los atacantes</p>
+                </div>
+                
+                <div class="challenge-container">
+                    <!-- Efecto de partículas -->
+                    <div class="particles" id="challenge-particles"></div>
+                    
+                    <div class="challenge-header">
+                        <div class="challenge-info">
+                            <span class="challenge-level level-beginner">Principiante</span>
+                            <h3>Análisis de Correo de Phishing</h3>
+                        </div>
+                        <div class="challenge-points">
+                            <i class="fas fa-star"></i> 250 Puntos
+                        </div>
+                    </div>
+                    
+                    <div class="challenge-content">
+                        <div class="challenge-hint">
+                            <h4><i class="fas fa-lightbulb"></i> Pista del Reto</h4>
+                            <p>Analiza el siguiente correo electrónico sospechoso. Busca indicadores de phishing como:</p>
+                            <ul>
+                                <li>Remitente sospechoso o que intenta suplantar una identidad</li>
+                                <li>Enlaces que no coinciden con el texto visible</li>
+                                <li>Solicitud urgente de información personal</li>
+                                <li>Errores gramaticales o ortográficos</li>
+                            </ul>
+                            <p>La flag que buscas está oculta en el dominio del enlace malicioso.</p>
+                        </div>
+                        
+                        <div class="challenge-video">
+                            <h4><i class="fas fa-play-circle"></i> Video Explicativo</h4>
+                            <div class="video-placeholder">
+                                <!-- El video se cargaría aquí -->
+                            </div>
+                            <p>Mira este video para aprender técnicas de análisis de phishing</p>
+                            <button class="btn btn-outline mt-2">
+                                <i class="fas fa-play"></i> Reproducir Video
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Simulación de correo de phishing -->
+                    <div class="card mt-4">
+                        <div class="card-content">
+                            <h4><i class="fas fa-envelope"></i> Correo Sospechoso</h4>
+                            <div class="email-simulation p-3 mt-3" style="background: #f5f5f5; color: #333; border-radius: 8px; font-family: Arial, sans-serif;">
+                                <p><strong>De:</strong> soporte@secure-bank.com</p>
+                                <p><strong>Para:</strong> usuario@ejemplo.com</p>
+                                <p><strong>Asunto:</strong> Actualización Urgente de Seguridad Requerida</p>
+                                <div class="email-body mt-3">
+                                    <p>Estimado cliente,</p>
+                                    <p>Hemos detectado actividad sospechosa en su cuenta. Para evitar la suspensión temporal, debe verificar su información inmediatamente.</p>
+                                    <p>Por favor, haga clic en el siguiente enlace para actualizar sus datos de seguridad:</p>
+                                    <p><a href="#" style="color: #0066cc;">https://secure-bank-verify.flag{CyB3r_Ph1sh_M4st3r}/login</a></p>
+                                    <p>Si no actualiza su información en las próximas 24 horas, su cuenta será suspendida.</p>
+                                    <p>Atentamente,<br>El equipo de seguridad de Secure Bank</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Input para la flag -->
+                    <div class="flag-input-container">
+                        <h4><i class="fas fa-flag"></i> Encuentra y Envía la Flag</h4>
+                        <p>Inspecciona el correo anterior y encuentra la flag oculta. Luego ingrésala en el campo de abajo.</p>
+                        
+                        <input type="text" class="flag-input" id="flag-input" placeholder="Ingresa la flag aquí (formato: flag{...})">
+                        <button class="btn" id="submit-flag">Validar Flag</button>
+                        
+                        <div id="flag-feedback" class="flag-feedback"></div>
+                    </div>
+                </div>
+                
+                <!-- Confeti para éxito -->
+                <div class="confetti" id="confetti"></div>
+            </div>
+        </section>
+        
+        <!-- Más retos (secciones adicionales) -->
+        <section id="intermedio" class="fade-in mt-5">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Más Retos Disponibles</h2>
+                    <p>Sigue desafiándote con estos retos de diferentes niveles de dificultad</p>
+                </div>
+                
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="challenge-level level-intermediate">Intermedio</span>
+                            <h3>Explotación de Vulnerabilidades Web</h3>
+                            <p>Encuentra y explota vulnerabilidades comunes en aplicaciones web como SQLi y XSS.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>500 puntos</small>
+                                <a href="#" class="btn btn-sm btn-outline">Próximamente</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="challenge-level level-advanced">Avanzado</span>
+                            <h3>Análisis de Malware</h3>
+                            <p>Analiza muestras de malware en un entorno seguro para entender su comportamiento.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>1000 puntos</small>
+                                <a href="#" class="btn btn-sm btn-outline">Próximamente</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="challenge-level level-beginner">Principiante</span>
+                            <h3>Reconocimiento de Red</h3>
+                            <p>Aprende técnicas básicas de reconocimiento y enumeración de redes.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <small>300 puntos</small>
+                                <a href="#" class="btn btn-sm btn-outline">Próximamente</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-mascot">
+                            <div class="logo-body">
+                                <div class="logo-face">
+                                    <div class="logo-mask"></div>
+                                    <div class="logo-eyes">
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                        <div class="logo-eye">
+                                            <div class="logo-eye-shine"></div>
+                                        </div>
+                                    </div>
+                                    <div class="logo-nose"></div>
+                                </div>
+                                <div class="logo-ears">
+                                    <div class="logo-ear"></div>
+                                    <div class="logo-ear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-text">
+                            <div class="logo-title">CyberAcademy</div>
+                            <div class="logo-slogan">Aprendizaje práctico en ciberseguridad</div>
+                        </div>
+                    </div>
+                    <p>Tu plataforma de aprendizaje práctico en ciberseguridad. Desarrolla habilidades reales a través de retos, niveles y especializaciones profesionales.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#clases">Especializaciones</a></li>
+                        <li><a href="retos.html">Retos Interactivos</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="index.html#precios">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="guias.html">Guías</a></li>
+                        <li><a href="herramientas.html">Herramientas</a></li>
+                        <li><a href="comunidad.html">Comunidad</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="contacto.html">Formulario de Contacto</a></li>
+                        <li><a href="mailto:info@cyberacademy.com">info@cyberacademy.com</a></li>
+                        <li><a href="soporte.html">Soporte Técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CyberAcademy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sistema de flags interactivo
+        document.addEventListener('DOMContentLoaded', function() {
+            const flagInput = document.getElementById('flag-input');
+            const submitButton = document.getElementById('submit-flag');
+            const feedback = document.getElementById('flag-feedback');
+            const confetti = document.getElementById('confetti');
+            const particlesContainer = document.getElementById('challenge-particles');
+            
+            // Crear partículas de fondo
+            createParticles();
+            
+            // Validar flag
+            submitButton.addEventListener('click', function() {
+                const userFlag = flagInput.value.trim();
+                const correctFlag = 'flag{CyB3r_Ph1sh_M4st3r}';
+                
+                if (userFlag === correctFlag) {
+                    feedback.textContent = '¡Correcto! Has encontrado la flag. ¡Buen trabajo!';
+                    feedback.className = 'flag-feedback flag-success';
+                    feedback.style.display = 'block';
+                    
+                    // Mostrar confeti
+                    showConfetti();
+                    
+                    // Guardar progreso en localStorage
+                    localStorage.setItem('phishingChallengeCompleted', 'true');
+                    localStorage.setItem('points', parseInt(localStorage.getItem('points') || '0') + 250);
+                    
+                    // Animación de éxito
+                    submitButton.textContent = '¡Reto Completado!';
+                    submitButton.classList.remove('btn');
+                    submitButton.classList.add('btn', 'btn-success');
+                    submitButton.disabled = true;
+                    
+                } else {
+                    feedback.textContent = 'Flag incorrecta. Sigue intentándolo. Pista: revisa el enlace en el correo de phishing.';
+                    feedback.className = 'flag-feedback flag-error';
+                    feedback.style.display = 'block';
+                }
+            });
+            
+            // Crear partículas animadas
+            function createParticles() {
+                for (let i = 0; i < 20; i++) {
+                    const particle = document.createElement('div');
+                    particle.classList.add('particle');
+                    
+                    // Posición y animación aleatoria
+                    const left = Math.random() * 100;
+                    const delay = Math.random() * 5;
+                    const duration = 3 + Math.random() * 2;
+                    
+                    particle.style.left = `${left}%`;
+                    particle.style.animationDelay = `${delay}s`;
+                    particle.style.animationDuration = `${duration}s`;
+                    
+                    particlesContainer.appendChild(particle);
+                }
+            }
+            
+            // Efecto de confeti
+            function showConfetti() {
+                confetti.style.display = 'block';
+                
+                // Crear piezas de confeti
+                for (let i = 0; i < 100; i++) {
+                    const piece = document.createElement('div');
+                    piece.classList.add('confetti-piece');
+                    
+                    // Propiedades aleatorias
+                    const left = Math.random() * 100;
+                    const animationDelay = Math.random() * 3;
+                    const rotation = Math.random() * 360;
+                    
+                    piece.style.left = `${left}%`;
+                    piece.style.animationDelay = `${animationDelay}s`;
+                    piece.style.transform = `rotate(${rotation}deg)`;
+                    
+                    confetti.appendChild(piece);
+                }
+                
+                // Ocultar confeti después de 5 segundos
+                setTimeout(() => {
+                    confetti.style.display = 'none';
+                    confetti.innerHTML = '';
+                }, 5000);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+cyberacademy/
+│
+├── index.html
+├── styles.css
+├── images/
+│   ├── securitytech.png
+│   ├── cyberdefense.png
+│   ├── securenet.png
+│   ├── datashield.png
+│   ├── threatwatch.png
+│   ├── infosec.png
+│   ├── red-team.jpg
+│   ├── blue-team.jpg
+│   ├── osint.jpg
+│   ├── malware-analysis.jpg
+│   ├── ctf-challenge.jpg
+│   ├── network-analysis.jpg
+│   ├── forensic-lab.jpg
+│   └── malware-lab.jpg
+└── pages/
+    ├── registro.html
+    ├── login.html
+    ├── perfil.html
+    ├── clase-red-team.html
+    ├── clase-blue-team.html
+    ├── clase-purple-team.html
+    ├── retos.html
+    ├── osint-framework.html
+    ├── contacto.html
+    ├── blog.html
+    ├── guias.html
+    ├── herramientas.html
+    ├── comunidad.html
+    └── faq.html
